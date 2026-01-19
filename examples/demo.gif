@@ -1,0 +1,13 @@
+# This is a placeholder for the demo GIF
+# 
+# To create the actual demo GIF:
+# 1. Use a screen recording tool (Kap, LICEcap, ScreenToGif)
+# 2. Record the following commands:
+#    - track start "Demo Project"
+#    - track status
+#    - track stop
+#    - track report --today
+# 3. Export as GIF
+# 4. Replace this file with the actual demo.gif
+#
+# See screenshot.md for detailed instructions
