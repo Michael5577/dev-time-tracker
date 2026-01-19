@@ -12,10 +12,10 @@
 > A beautiful and powerful command-line time tracking application for developers. Track your coding sessions, monitor daily progress, and achieve your development goals with a simple, elegant CLI tool.
 
 ![npm version](https://img.shields.io/npm/v/dev-time-tracker?style=flat-square&logo=npm)
-![License](https://img.shields.io/github/license/YOUR_USERNAME/dev-time-tracker?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/dev-time-tracker?style=flat-square&logo=github)
-![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/dev-time-tracker?style=flat-square&logo=github)
-![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/dev-time-tracker?style=flat-square&logo=github)
+![License](https://img.shields.io/github/license/Michael5577/dev-time-tracker?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/Michael5577/dev-time-tracker?style=flat-square&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/Michael5577/dev-time-tracker?style=flat-square&logo=github)
+![GitHub issues](https://img.shields.io/github/issues/Michael5577/dev-time-tracker?style=flat-square&logo=github)
 ![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg?style=flat-square&logo=node.js)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg?style=flat-square)
 
@@ -74,7 +74,7 @@ npm --version   # Should be 6.0.0 or higher
 1. **Clone the repository** (or download the source code):
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dev-time-tracker.git
+git clone https://github.com/Michael5577/dev-time-tracker.git
 cd dev-time-tracker
 ```
 
@@ -104,7 +104,7 @@ npm install -g dev-time-tracker
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/dev-time-tracker.git
+git clone https://github.com/Michael5577/dev-time-tracker.git
 cd dev-time-tracker
 
 # Install dependencies
@@ -672,7 +672,7 @@ We have exciting features planned for future releases:
 
 ### Contributing Ideas
 
-Have an idea? [Open an issue](https://github.com/YOUR_USERNAME/dev-time-tracker/issues) or submit a pull request!
+Have an idea? [Open an issue](https://github.com/Michael5577/dev-time-tracker/issues) or submit a pull request!
 
 ---
 
@@ -684,7 +684,7 @@ We welcome contributions! Here's how you can help:
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/dev-time-tracker.git
+   git clone https://github.com/Michael5577/dev-time-tracker.git
    cd dev-time-tracker
    ```
 
@@ -733,7 +733,7 @@ We welcome contributions! Here's how you can help:
 
 ### Reporting Bugs
 
-Found a bug? [Open an issue](https://github.com/YOUR_USERNAME/dev-time-tracker/issues) with:
+Found a bug? [Open an issue](https://github.com/Michael5577/dev-time-tracker/issues) with:
 - Description of the bug
 - Steps to reproduce
 - Expected vs actual behavior
@@ -741,7 +741,7 @@ Found a bug? [Open an issue](https://github.com/YOUR_USERNAME/dev-time-tracker/i
 
 ### Suggesting Features
 
-Have an idea? [Open an issue](https://github.com/YOUR_USERNAME/dev-time-tracker/issues) with:
+Have an idea? [Open an issue](https://github.com/Michael5577/dev-time-tracker/issues) with:
 - Clear description of the feature
 - Use case and benefits
 - Possible implementation approach
@@ -789,10 +789,10 @@ SOFTWARE.
 
 ## 📧 Support
 
-- 📖 [Documentation](https://github.com/YOUR_USERNAME/dev-time-tracker#readme)
-- 🐛 [Report a Bug](https://github.com/YOUR_USERNAME/dev-time-tracker/issues)
-- 💡 [Request a Feature](https://github.com/YOUR_USERNAME/dev-time-tracker/issues)
-- 💬 [Discussions](https://github.com/YOUR_USERNAME/dev-time-tracker/discussions)
+- 📖 [Documentation](https://github.com/Michael5577/dev-time-tracker#readme)
+- 🐛 [Report a Bug](https://github.com/Michael5577/dev-time-tracker/issues)
+- 💡 [Request a Feature](https://github.com/Michael5577/dev-time-tracker/issues)
+- 💬 [Discussions](https://github.com/Michael5577/dev-time-tracker/discussions)
 
 ---
 
