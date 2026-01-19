@@ -1,0 +1,42 @@
+{
+  "sessions": [
+    {
+      "startTime": "2026-01-19T21:31:13.315Z",
+      "endTime": "2026-01-19T21:31:35.121Z",
+      "duration": 0,
+      "project": "My Awesome Project",
+      "id": "1768858273317"
+    },
+    {
+      "startTime": "2026-01-19T21:31:46.359Z",
+      "endTime": "2026-01-19T21:31:47.890Z",
+      "duration": 0,
+      "project": null,
+      "id": "1768858306361"
+    },
+    {
+      "startTime": "2026-01-19T21:31:48.435Z",
+      "endTime": "2026-01-19T21:31:49.957Z",
+      "duration": 0,
+      "project": "Test",
+      "id": "1768858308436"
+    },
+    {
+      "startTime": "2026-01-19T21:32:01.472Z",
+      "endTime": "2026-01-19T21:32:03.038Z",
+      "duration": 0,
+      "project": "Argument Project",
+      "id": "1768858321474"
+    },
+    {
+      "startTime": "2026-01-19T21:32:03.604Z",
+      "endTime": "2026-01-19T21:32:05.153Z",
+      "duration": 0,
+      "project": "Option Project",
+      "id": "1768858323605"
+    }
+  ],
+  "config": {
+    "dailyGoal": 6
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "dev-time-tracker",
+  "version": "1.0.0",
+  "description": "A simple and elegant time tracking application for developers",
+  "main": "index.js",
+  "bin": {
+    "track": "./index.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "time-tracker",
+    "productivity",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "date-fns": "^3.0.0",
+    "express": "^4.18.2",
+    "figlet": "^1.7.0"
+  }
+}
