@@ -804,7 +804,7 @@ If you find this project useful, please consider giving it a star! ⭐
 
 <div align="center">
 
-**Made with ❤️ by developers, for developers**
+**Made with ❤️ by Michael5577**
 
 [⬆ Back to Top](#-dev-time-tracker-cli)
 
