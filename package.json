@@ -1,22 +1,40 @@
 {
   "name": "dev-time-tracker",
   "version": "1.0.0",
-  "description": "A simple and elegant time tracking application for developers",
+  "description": "A beautiful CLI time tracking application for developers",
   "main": "index.js",
   "bin": {
     "track": "./index.js"
   },
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "test": "node index.js --help"
   },
   "keywords": [
     "time-tracker",
     "productivity",
-    "developer-tools"
+    "developer-tools",
+    "cli",
+    "time-tracking",
+    "coding-time",
+    "developer-productivity"
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/dev-time-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/dev-time-tracker/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/dev-time-tracker#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "preferGlobal": true,
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^11.1.0",

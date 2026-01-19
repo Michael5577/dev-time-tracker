@@ -11,10 +11,13 @@
 
 > A beautiful and powerful command-line time tracking application for developers. Track your coding sessions, monitor daily progress, and achieve your development goals with a simple, elegant CLI tool.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg)
-![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg)
+![npm version](https://img.shields.io/npm/v/dev-time-tracker?style=flat-square&logo=npm)
+![License](https://img.shields.io/github/license/YOUR_USERNAME/dev-time-tracker?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/dev-time-tracker?style=flat-square&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/dev-time-tracker?style=flat-square&logo=github)
+![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/dev-time-tracker?style=flat-square&logo=github)
+![Node](https://img.shields.io/badge/node-%3E%3D14.0.0-brightgreen.svg?style=flat-square&logo=node.js)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey.svg?style=flat-square)
 
 ---
 
@@ -87,26 +90,53 @@ npm install
 node index.js start "My Project"
 ```
 
-### Global Installation
+### Global Installation (Recommended)
 
-To use the `track` command from anywhere on your system:
+Install globally to use the `track` command from anywhere on your system:
 
-1. **Navigate to the project directory**:
+#### Option 1: Install from npm (when published)
 
 ```bash
-cd dev-time-tracker
+npm install -g dev-time-tracker
 ```
 
-2. **Link the package globally**:
+#### Option 2: Install from GitHub (current method)
 
 ```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/dev-time-tracker.git
+cd dev-time-tracker
+
+# Install dependencies
+npm install
+
+# Install globally
+npm install -g .
+```
+
+#### Option 3: Development Installation (npm link)
+
+For local development, use `npm link` to create a symlink:
+
+```bash
+# Navigate to project directory
+cd dev-time-tracker
+
+# Install dependencies
+npm install
+
+# Create global symlink
 npm link
 ```
 
-3. **Verify installation**:
+**Verify installation:**
 
 ```bash
 track --version
+# Should output: 1.0.0
+
+track --help
+# Should show help menu
 ```
 
 Now you can use `track` from any directory:
@@ -115,14 +145,30 @@ Now you can use `track` from any directory:
 track start "My Awesome Project"
 track status
 track stop
+track report --today
 ```
 
 ### Uninstall Global Installation
 
-If you want to remove the global command:
+To remove the global installation:
+
+#### If installed via npm install -g:
+
+```bash
+npm uninstall -g dev-time-tracker
+```
+
+#### If installed via npm link:
 
 ```bash
 npm unlink -g dev-time-tracker
+```
+
+#### Verify uninstallation:
+
+```bash
+track --version
+# Should show: command not found
 ```
 
 ---
